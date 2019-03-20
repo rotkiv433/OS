@@ -7,7 +7,6 @@ public class HW01_4 {
                 BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream("rezultati.csv"),"UTF8"));
                 BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("rezultati.tsv"),"UTF8"));
                 ){
-            br.mark(1);
             String currentLine;
             String firstLine = br.readLine();
             String[] firstSplit = firstLine.split(",");
